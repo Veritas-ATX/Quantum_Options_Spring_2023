@@ -21,6 +21,6 @@ git clone https://github.com/Veritas-ATX/Quantum_Options_Spring_2023.git
 cd Quantum_Options_Spring_2023
 conda create -n myenv python=3.10
 conda activate myenv
-pip install numpy scipy tqdm matplotlib jupyterlab qiskit[visualizaton]
+pip install numpy scipy tqdm matplotlib jupyterlab 'qiskit[visualizaton]'
 pip install qiskit-finance
 ```
